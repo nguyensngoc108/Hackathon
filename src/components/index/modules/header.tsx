@@ -174,7 +174,7 @@ const Header = (props: any) => {
     <div className="header-content">
       <div className="left logo">
         <a href="https://particle.network/">
-          <img src="https://particle.network/images/logo-top.png" alt="" />
+          <img src="https://scontent.fsgn2-10.fna.fbcdn.net/v/t1.15752-9/448788914_504027822280252_6301847131749526452_n.png?_nc_cat=109&ccb=1-7&_nc_sid=9f807c&_nc_ohc=9FIzOM4yKhgQ7kNvgEZZaCN&_nc_ht=scontent.fsgn2-10.fna&oh=03_Q7cD1QEdQM7JJ63NfpYbDy_UzemzO1vI6h0tgQk5fJYMZ1F9YA&oe=66B06701" alt="" />
         </a>
       </div>
       <div className="right btns">

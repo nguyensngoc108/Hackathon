@@ -1,6 +1,6 @@
 import { LAMPORTS_PER_SOL } from '@solana/web3.js';
 
-export const BASE_IPFS_URL = process.env.NEXT_PUBLIC_IPFS_URL || 'https://api.particle.network';
+export const BASE_IPFS_URL = process.env.NEXT_PUBLIC_IPFS_URL || 'https://rpc.particle.network';
 export const BASE_API_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://rpc.particle.network';
 export const SOLANA_RPC_URL = `${BASE_API_URL}/solana`;
 export const IPFS_URL = `${BASE_IPFS_URL}/ipfs/upload`;
