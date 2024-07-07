@@ -1,65 +1,99 @@
-<div align="center">
-  <a href="https://particle.network/">
-    <img src="./media/logo.png?raw=true" />
-  </a>
-  <h3>
-    Solana NFT Market Demo <br /><a href="https://docs.particle.network/nft-service/introduction">View documentation</a>
-  </h3>
-</div>
+# CodeFest Sponsorship Platform
 
-![](https://img.shields.io/badge/Typescript-💪-blue?style=round)
-![GitHub](https://img.shields.io/github/license/silviopaganini/nft-market?style=round)
+![CodeFest](https://github.com/ThuanTheBadLuckCoder/hackathon/assets/102339067/b2f195bb-4ba4-47a9-84d8-7560b10e55b5)
 
-Demo of a Solana NFT Marketplace based on [Metaplex protocol](https://docs.metaplex.com/) and powered by [Particle Network Service](https://docs.particle.network/)
+## 🌟 Overview
 
-## ⚡️ Live
-See it live on [https://web-nft-demo.particle.network](https://web-nft-demo.particle.network)
+Welcome to our platform! We provide a unique opportunity for sponsors to purchase NFTs as certificates, granting them the right to sponsor various competitions. These NFTs can be held or traded, providing flexibility and transparency in the sponsorship process.
 
-## 🔬 Functionalities
-<img align="right" width="400" src="./media/image.png"></img>
+## 🚀 Problems to Address
 
-- Initialize Market
-- Query blockchain for NFT owner and metadata.
-- Minting NFT
-- Uploading NFT image to IPFS
-- Updating NFT metadata
-- **Sell NFT**
-- **Buy NFT**
-- **Settle && Withdraw**
+### 🛠️ Lack of Transparency
 
-## 🔧 Quick Start
+Traditional sponsorship processes often lack transparency, making it difficult for stakeholders to verify transactions and ensure that funds are appropriately allocated. Our platform leverages blockchain technology to create a transparent and immutable record of all sponsorship transactions, ensuring that every contribution is traceable and verifiable.
 
-💿 git clone the project and install the dependencies
+### 📜 Accountability Issues
 
-```bash
-git clone git@github.com:Particle-Network/particle-solana-nft-web-demo.git
-cd particle-solana-nft-web-demo
-yarn install
-```
+In traditional systems, it can be challenging to hold organizers accountable for distributing prize money to winners. By recording all transactions on the blockchain, our platform ensures that sponsors can see if and when the prize money has been fully disbursed to winners, promoting accountability and trust.
 
-✏ Set your Particle Network configuration in **.env**. If you don't have a Particle Network account, please register on the [Particle Network Dashboard](https://dashboard.particle.network/), then create a project and an app.
+### 🎤 Marketing and Recognition Challenges
 
-```bash
-NEXT_PUBLIC_PROJECT_ID='Your Particle Network project id'
-NEXT_PUBLIC_PROJECT_CLIENT_KEY='The client key of your project'
-NEXT_PUBLIC_PROJECT_APP_ID='The app id of your project'
-```
+Sponsors often struggle to gain adequate recognition for their contributions. Our platform addresses this by prominently displaying sponsorship details, including the amount sponsored and the associated competitions and winners. This public recognition serves as a powerful marketing tool, enhancing the sponsor's reputation and visibility.
 
-🚴‍♂️ Finally, start the project.
+## 💡 Solution and Product
 
-```bash
-yarn start
-```
+### Solution
 
-## ⚠️ Notice
+Utilize blockchain and NFTs to create a transparent, efficient, and attractive sponsorship system for events like CodeFest 2024.
 
-The demo uses `IndexedDB` to store centralized data, and if the associated database is deleted, the auction-related data will be lost. So we Strongly recommended running this demo by the `devnet` network.
+### Product
 
-Switching networks cleans up local db, which means that transaction-related data is lost.
+NFTs representing different sponsorship packages (Gold, Silver, Bronze) with associated benefits, issued and traded on a blockchain platform.
 
-## 💼 Feedback
+## 📊 Market Research
 
-If you got some problems, please report bugs or issues.
+- The Sponsorship & Advertising market in Vietnam is estimated to achieve a revenue of US$1.8m in 2024.
+- It is anticipated to experience a compound annual growth rate (CAGR 2024-2028) of 4.12%, leading to a projected market volume of US$2.1m by 2028.
+- Many fields in Vietnam are integrating blockchain, gradually asserting their position in the market (Entertainment, Art, Education, Medical, etc.).
 
-You can also join our [Discord](https://discord.gg/2y44qr6CR2).
+## 🔍 SWOT Analysis
 
+### Strengths
+
+- Enhanced Security and Transparency
+- New Revenue Streams
+
+### Weaknesses
+
+- Technological Barriers
+- Scalability Issues
+
+### Opportunities
+
+- Improved Fan Engagement
+- Attracting Tech-Savvy Audiences
+
+### Challenges
+
+- Regulatory Uncertainty
+- Market Education
+- Cost of Implementation
+
+## 📈 Business Model
+
+1. **Issuing and Selling NFTs**: Create and issue NFTs representing sponsorship packages. Sponsors purchase these NFTs to participate in event funding.
+2. **Transaction Fees and Commissions**: Earn transaction fees and commissions from NFT trading on blockchain platforms.
+3. **Subsequent Events and Activities**: Organize follow-up events where NFTs can continue to be used and traded, creating a long-term revenue stream.
+
+## 🛠️ Product Development Plan
+
+### Phase 1: Preparation and Development
+
+- Create NFTs for each sponsorship package and establish smart contracts.
+- Define details of Gold, Silver, Bronze sponsorship packages, and associated benefits.
+- Implement a "Purchase NFT" button, linking to NFT trading platforms like OpenSea or directly from the website.
+
+### Phase 2: Sponsor Dashboard
+
+- Integrate Phantom Wallet for sponsors to log in and manage their NFTs.
+- Display the number of NFTs, current value, and associated benefits.
+
+### Phase 3: Contest Organization
+
+- Prepare and promote the contest.
+- Organize the contest and the award ceremony, ensuring the prize money is awarded to the winner.
+
+### Phase 4: Reporting and Evaluation
+
+- Update progress and report via NFTs.
+- Evaluate the contest results and send the final report to sponsors.
+
+## 🏅 Why Choose Solana?
+
+- **High Transaction Speed**: Solana can process thousands of transactions per second, ensuring smooth and fast NFT transactions.
+- **Low Transaction Costs**: Solana offers very low transaction fees, reducing costs for sponsors and event organizers.
+- **Strong Ecosystem**: Solana has a rapidly growing ecosystem attracting many projects and developers.
+
+---
+
+Thank you for choosing our platform! We look forward to revolutionizing the sponsorship process together. For any inquiries or support, please contact us
